@@ -1,0 +1,62 @@
+
+body {
+	background-color:whitesmoke;
+	font-family: 'Roboto', sans-serif;
+	color:#485D72;
+	font-size:1.1rem;
+}
+
+#contact a:link, a:visited {
+	color:#485D72;
+}
+
+#contact a:hover, a:active {
+	opacity:0.7;
+	text-decoration:none;
+}
+
+footer {
+	background-color:#485D72;
+}
+
+nav {
+	background-color:#485D72;
+}
+
+#gallery img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+	min-width:300px;
+	max-height:300px;
+}
+
+.thumb {
+	margin:10px;
+	border:solid ghostwhite;
+	box-shadow:5px 5px 10px slategray;
+}
+
+.thumb a:hover {
+	opacity:0.7;
+}
+
+div.banner {
+	width:100%;
+	height:500px;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+article h1 {
+	background-color:#BFCADB;
+	text-transform:uppercase;
+}
+
+article img {
+	height:100%;
+	width:100%;
+	padding:15px 0px;
+}
